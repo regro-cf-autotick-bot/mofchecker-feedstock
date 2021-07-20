@@ -1,5 +1,5 @@
 {% set name = "mofchecker" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.2" %}
 
 
 package:
@@ -8,15 +8,15 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mofchecker-{{ version }}.tar.gz
-  sha256: e2e6ce4c0f505a6e9d8774690521af49ed9f282d681ca459150ae1eba2d23966
+  sha256: 4b6bccab176b97d30db98520f3da4627310885d5c4763c336f268b4717c8601b
 
 build:
   number: 0
-  noarch: python 
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - mofchecker = mofchecker.cli:main
-    
+
 
 requirements:
   host:
