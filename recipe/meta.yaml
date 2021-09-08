@@ -28,6 +28,7 @@ requirements:
     - pymatgen >=2021.1,<2022,!=2021.3.4
     - python >=3.6
     - openbabel ==3.*
+    - backports.cached-property == 1.*
 
 test:
   imports:
