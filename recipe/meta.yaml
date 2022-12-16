@@ -33,6 +33,7 @@ requirements:
     - ase ==3.*
     - structuregraph-helpers
     - element-coder
+    - libconeangle
 
 test:
   imports:
