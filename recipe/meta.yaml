@@ -38,10 +38,6 @@ requirements:
 test:
   imports:
     - mofchecker
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/kjappelbaum/mofchecker
